@@ -940,7 +940,7 @@ let titleScreen: Sprite = null
 let asphodelImages: Image[] = []
 let levels: tiles.WorldMap[] = []
 let debug = false
-debug = false
+debug = true
 levels = [
 tiles.createMap(tilemap`level1`),
 tiles.createMap(tilemap`level2`),
@@ -1257,37 +1257,5 @@ game.onUpdate(function () {
     }
 })
 forever(function () {
-    if (!(victorydance)) {
-        for (let index = 0; index < 2; index++) {
-            if (!(isWalking)) {
-                music.playMelody("F A - C5 A F G F ", tempo)
-            }
-            if (!(isWalking)) {
-                music.playMelody("F A - C5 A F G F ", tempo)
-            }
-            if (!(isWalking)) {
-                music.playMelody("D E - D E D E D ", tempo)
-            }
-            if (!(isWalking)) {
-                music.playMelody("D E - D E D E D ", tempo)
-            }
-        }
-        for (let index = 0; index < 2; index++) {
-            if (!(isWalking)) {
-                music.playMelody("F A - F A - B A ", tempo)
-            }
-            if (!(isWalking)) {
-                music.playMelody("F A - F A - B A ", tempo)
-            }
-            if (!(isWalking)) {
-                music.playMelody("C E - G E - G B ", tempo)
-            }
-            if (!(isWalking)) {
-                music.playMelody("C E - G E - G B ", tempo)
-            }
-        }
-        if (isWalking) {
-            music.playMelody("C D C D C D C D ", tempo)
-        }
-    }
+	
 })
