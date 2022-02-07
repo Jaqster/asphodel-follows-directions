@@ -1,0 +1,37 @@
+{
+    "name": "Asphodel follows directions",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.9.2",
+        "story": "github:riknoll/arcade-story#v1.3.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "animation": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-tick-event": "github:microsoft/pxt-tick-event#v0.2.0",
+        "controller": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.6",
+        "tag": "v1.2.6",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/7f343e1ba30a4c31de6b7b14d288d34b2741b2f4",
+        "target": "1.7.24",
+        "pxt": "6.2.21",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
