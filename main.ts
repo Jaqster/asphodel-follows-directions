@@ -263,20 +263,20 @@ function showIntroDialog () {
         story.printDialog("Use the arrow buttons to rearrange the directions on the path", 80, 40, 50, 150, 13, 12, story.TextSpeed.Slow)
         createIntroSprite(img`
             . . . . . . . . . . . . . . . . 
-            . . . . . . . a a . . . . . . . 
-            . . . . . . a 1 a a . . . . . . 
-            . . . . . a 1 a a a a . . . . . 
-            . . . . a a a a a a a a . . . . 
-            . . . a a a a a a a a a a . . . 
-            . . . a a a a a a a a a a . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . a a a a a a . . . . . 
-            . . . . . . a a a a . . . . . . 
+            . . . . . . . 4 4 . . . . . . . 
+            . . . . . . a 1 4 4 . . . . . . 
+            . . . . . 4 1 4 4 4 4 . . . . . 
+            . . . . 4 4 4 4 4 4 4 4 . . . . 
+            . . . 4 4 4 4 4 4 4 4 4 4 . . . 
+            . . . 4 4 4 4 4 4 4 4 4 4 . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . 4 4 4 4 4 4 . . . . . 
+            . . . . . . 4 4 4 4 . . . . . . 
             . . . . . . . . . . . . . . . . 
             `, "Directions", 80)
     })
@@ -1255,7 +1255,4 @@ game.onUpdate(function () {
     if (!(switchCooldownActive) && (asphodelIsOnSwitch && !(theWitch.overlapsWith(switchCollides)))) {
         asphodelIsOnSwitch = false
     }
-})
-forever(function () {
-	
 })
